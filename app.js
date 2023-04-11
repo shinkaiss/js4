@@ -15,15 +15,10 @@ sortedTags.forEach(tag => {
   result[tag[0]] = tag[1];
 });
 
-console.log({
-h1:h1,
-li:li,
-div:div,
-p:p,
-ol:ol
-  
-  });
-  // console.log(result);
+  console.log(result);
 
-
-// dop dz
+  var numbers = ['h1', 'li', 'div', 'p', 'ol']
+numbers.sort((a, b) =>{
+     return  a - b
+})
+console.log(numbers);
